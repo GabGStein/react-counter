@@ -8,6 +8,7 @@ O objetivo é praticar conceitos de **React**, **state**, **componentes**, **eve
 - Incrementar o valor do contador
 - Decrementar o valor do contador
 - Resetar o contador
+- Feedback visual com cores para valores negativos, zero e positivos
 - Estilização moderna com Tailwind CSS
 
 ## Tecnologias utilizadas
@@ -25,7 +26,14 @@ O objetivo é praticar conceitos de **React**, **state**, **componentes**, **eve
 git clone https://github.com/GabGStein/react-counter.git
 cd react-counter
 
-## Instalar as dependências e rodar projeto
+Instale as dependências e rode o projeto:
 
 npm install
 npm run dev
+Abra http://localhost:3000 no navegador.
+
+Deploy
+
+O projeto está hospedado na Vercel e pode ser acessado publicamente neste link:
+
+https://react-counter-eta-mauve.vercel.app
