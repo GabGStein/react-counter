@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 export const Counter = () => {
 
@@ -18,6 +18,11 @@ export const Counter = () => {
         setCount(0)
     }
 
+    const numberColor = () => {
+        if (count < 0) return 'text-red-400'
+        if (count > 0) return 'text-green-400'
+        return 'text-white'
+    }
 
 
     return (
@@ -31,7 +36,7 @@ export const Counter = () => {
                 </button>
 
                 <div className="min-w-28 min-h-28 bg-blue-600 rounded-xl flex justify-center items-center shadow-xl/30">
-                    <h1 className="font-bold text-white p-2">{count}</h1>
+                    <h1 className={`font-bold p-2 ${numberColor()}`}>{count}</h1>
                 </div>
 
                 <button
