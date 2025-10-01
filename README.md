@@ -25,14 +25,18 @@ O objetivo é praticar conceitos de **React**, **state**, **componentes**, **eve
 ```bash
 git clone https://github.com/GabGStein/react-counter.git
 cd react-counter
+```
 
-Instale as dependências e rode o projeto:
+2. Instale as dependências e rode o projeto:
 
+```bash
 npm install
 npm run dev
-Abra http://localhost:3000 no navegador.
+```
 
-Deploy
+3. Abra http://localhost:3000 no navegador.
+
+## 🌐 Deploy
 
 O projeto está hospedado na Vercel e pode ser acessado publicamente neste link:
 
